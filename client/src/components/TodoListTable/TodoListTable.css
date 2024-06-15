@@ -1,0 +1,96 @@
+.todo-list-container {
+  max-width: 1000px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 16px;
+}
+
+thead {
+  background-color: #007bff;
+  color: white;
+}
+
+thead th {
+  padding: 10px;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tbody td {
+  padding: 10px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+button.btn {
+  padding: 5px 10px;
+  margin: 2px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button.btn.start {
+  background-color: #28a745;
+  color: white;
+}
+
+button.btn.start:hover {
+  background-color: #218838;
+}
+
+button.btn.end {
+  background-color: #dc3545;
+  color: white;
+}
+
+button.btn.end:hover {
+  background-color: #c82333;
+}
+
+button.btn.pause {
+  background-color: #ffc107;
+  color: black;
+}
+
+button.btn.pause:hover {
+  background-color: #e0a800;
+}
+
+button.btn.resume {
+  background-color: #17a2b8;
+  color: white;
+}
+
+button.btn.resume:hover {
+  background-color: #138496;
+}
+
+button.btn.details {
+  background-color: #6c757d;
+  color: white;
+}
+
+button.btn.details:hover {
+  background-color: #5a6268;
+}
+
+/* Responsive Design */

@@ -1,0 +1,18 @@
+.border-1 {
+  border: 2px solid red;
+}
+.border-2 {
+  border: 2px solid rgb(196, 2, 231);
+}
+.border-3 {
+  border: 2px solid rgb(25, 236, 2);
+}
+.border-4 {
+  border: 2px solid rgb(6, 78, 235);
+}
+.border-5 {
+  border: 2px solid rgb(239, 240, 243);
+}
+.boxshow {
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
